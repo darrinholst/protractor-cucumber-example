@@ -1,11 +1,12 @@
 'use strict';
 
 exports.config = {
-  framework: 'cucumber',
+  framework: 'custom',
+  frameworkPath: 'node_modules/protractor-cucumber-framework',
 
   cucumberOpts: {
     format: 'pretty',
-    require: 'features/step_definitions/**/*.js'
+    require: require('glob').sync('features/step_definitions/**/*.js')
   },
 
   capabilities: {

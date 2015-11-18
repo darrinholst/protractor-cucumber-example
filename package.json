@@ -9,7 +9,9 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "~3.4.0",
-    "cucumber": "~0.8.1",
-    "protractor": "angular/protractor#451aa886"
+    "cucumber": "darrinholst/cucumber-js",
+    "glob": "~6.0.1",
+    "protractor": "~3.0.0",
+    "protractor-cucumber-framework": "~0.2.0"
   }
 }
