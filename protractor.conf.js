@@ -6,7 +6,8 @@ exports.config = {
 
   cucumberOpts: {
     format: 'pretty',
-    require: require('glob').sync('features/step_definitions/**/*.js')
+    require: 'features/step_definitions/**/*.js',
+    'no-source': true
   },
 
   capabilities: {
