@@ -1,5 +1,6 @@
-Feature: Does it work?
+Feature: 1
 
-  Scenario: google.com
+  Scenario: do it
     When I execute this step
     Then that step should have been executed
+
