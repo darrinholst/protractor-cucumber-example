@@ -50,6 +50,10 @@ exports.config = {
   framework: 'custom',
   frameworkPath: 'node_modules/protractor-cucumber-framework',
   cucumberOpts,
-  getMultiCapabilities
+  capabilities: {
+    browserName: 'chrome',
+    specs: 'features/**/*.feature'
+  }
+  //getMultiCapabilities
 };
 
